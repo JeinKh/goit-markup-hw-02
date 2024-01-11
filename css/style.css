@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FCFCFC;
+    background-color: #fff;
 }
 a{
     text-decoration: none;
@@ -12,17 +12,17 @@ a{
 }
 
 .logo{
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16; 
+    line-height: 1.17; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
 .logo .accent{
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .page-nav .link{
@@ -36,19 +36,20 @@ a{
 .page-nav .link:hover,
 .page-nav .link:focus,
 .page-nav .link:active{
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
-.page-address .address-link{
+.main-page-address .main-address-link{
     color: currentColor;
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
-.page-address .address-link:hover,
-.page-address .address-link:focus{
-    color: #4D5AE5;
+.main-page-address .main-address-link:hover,
+.main-page-address .main-address-link:focus{
+    color: #404bbf;
 }
 
 .main-page-body{
@@ -61,10 +62,11 @@ a{
     font-weight: 700;
     line-height: 1.07; 
     letter-spacing: 1.12px;
+    text-align: center;
 }
 
 .main-page-body .main-btn{
-    background-color: #4D5AE5;
+    background-color: #404BBF;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; 
@@ -87,6 +89,14 @@ a{
     letter-spacing: 0.32px;
 }
 
+.our-team-inform{
+    background-color: #F4F4FD;
+}
+
+.our-team li{
+    background-color: #fff;
+}
+
 .team-title{
     color: #2E2F42;
     font-size: 36px;
@@ -94,9 +104,10 @@ a{
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 
-.team .name-title{
+.our-team .name-title{
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -104,7 +115,7 @@ a{
     letter-spacing: 0.4px;
 }
 
-.team .name-text{
+.our-team .name-text{
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.32px;
@@ -116,6 +127,7 @@ a{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    text-align: center;
 }
 
 .portfolio .port-text{
@@ -136,15 +148,15 @@ a{
 }
 
 .foot-logo{
-    color: #F4F4FD;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16; 
+    line-height: 1.17; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
 .foot-accent{
-    color: #4D5AE5;
+    color: #f4f4fd;
 }
