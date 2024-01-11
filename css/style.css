@@ -6,8 +6,145 @@ body{
 a{
     text-decoration: none;
 }
-.header ul li{
-    background-color: #FFFFFF;
-    color: #2E2F42;
+
+.main-head{
+    background-color: #fff;
 }
-/*font-family: 'Raleway', sans-serif;*/
+
+.logo{
+    color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo .accent{
+    color: #4D5AE5;
+}
+
+.page-nav .link{
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus,
+.page-nav .link:active{
+    color: #4D5AE5;
+}
+
+.page-address .address-link{
+    color: currentColor;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.page-address .address-link:hover,
+.page-address .address-link:focus{
+    color: #4D5AE5;
+}
+
+.main-page-body{
+    background-color: #2E2F42;
+}
+
+.main-page-body .main-title{
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07; 
+    letter-spacing: 1.12px;
+}
+
+.main-page-body .main-btn{
+    background-color: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.64px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.advant .advant-title{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.4px;
+}
+
+.advant .advant-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.team-title{
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.team .name-title{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.4px;
+}
+
+.team .name-text{
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.32px;
+}
+
+.portfolio .port-title{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.portfolio .port-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.footer{
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.footer .foot-text{
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.32px;
+}
+
+.foot-logo{
+    color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.foot-accent{
+    color: #4D5AE5;
+}
