@@ -39,9 +39,12 @@ a{
     color: #404bbf;
 }
 
+.main-page-address{
+    font-style: normal;
+}
+
 .main-page-address .main-address-link{
     color: currentColor;
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -73,6 +76,11 @@ a{
     letter-spacing: 0.64px;
     color: #fff;
     cursor: pointer;
+}
+
+.main-page-body .main-btn:hover,
+.main-page-body .main-btn:focus{
+    background-color: #404BBF;
 }
 
 .advant .advant-title{
