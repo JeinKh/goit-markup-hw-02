@@ -7,6 +7,10 @@ a{
     text-decoration: none;
 }
 
+ul{
+    list-style: none;
+}
+
 .main-head{
     background-color: #fff;
 }
@@ -17,7 +21,7 @@ a{
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; 
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -30,7 +34,7 @@ a{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .page-nav .link:hover,
@@ -47,7 +51,7 @@ a{
     color: currentColor;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .main-page-address .main-address-link:hover,
@@ -64,7 +68,7 @@ a{
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07; 
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
@@ -73,7 +77,7 @@ a{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; 
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
 }
@@ -88,13 +92,13 @@ a{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; 
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
 .advant .advant-text{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .our-team-inform{
@@ -110,7 +114,7 @@ a{
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
 }
@@ -120,13 +124,13 @@ a{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; 
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
 .our-team .name-text{
     font-size: 16px;
     line-height: 1.5; 
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .portfolio .port-title{
@@ -134,14 +138,14 @@ a{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
 .portfolio .port-text{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .footer{
@@ -152,7 +156,7 @@ a{
 .footer .foot-text{
     font-size: 16px;
     line-height: 1.5; 
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .foot-logo{
@@ -161,7 +165,7 @@ a{
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; 
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
